@@ -1,0 +1,137 @@
+{
+  "app": {
+    "name": "Luz da Autocura",
+    "shortName": "Luz da Autocura",
+    "brand": "luz da autocura",
+    "logo": "",
+    "primaryColor": "#5d3b78",
+    "loginText": "Digite o e-mail usado na compra para acessar.",
+    "support": {
+      "whatsapp": "5500000000000",
+      "whatsappMessage": "Olá! Preciso de ajuda com o app Luz da Autocura.",
+      "email": "suporte@seudominio.com"
+    }
+  },
+  "hero": {
+    "tag": "Terapia Holística • Meditação • Equilíbrio",
+    "title": "Luz da Autocura",
+    "subtitle": "Jornadas guiadas de cura holística, rituais de alinhamento e expansão do ser para o seu bem-estar diário.",
+    "image": ""
+  },
+  "labels": {
+    "unlocked": "Conteúdos Liberados",
+    "upsells": "Achamos que você também pode gostar"
+  },
+  "products": [
+    {
+      "id": "boas-vindas",
+      "title": "Seja bem vindo(a)",
+      "cover": "",
+      "coverText": "Comece por aqui",
+      "theme": ["#2a1740", "#7a4a8c", "#e8a86a"],
+      "modules": [
+        {
+          "id": "guia-autocura",
+          "title": "Acesse seu Guia de Autocura Energética",
+          "continueTitle": "",
+          "description": "",
+          "cover": "",
+          "coverText": "Guia de Autocura Energética",
+          "theme": ["#1f1430", "#5d3b78", "#c9a0dc"],
+          "content": { "type": "pdf", "url": "", "body": "", "buttonLabel": "" }
+        },
+        {
+          "id": "leitura-numerologica",
+          "title": "(Bônus) 🎁",
+          "continueTitle": "Leitura Numerológica",
+          "description": "Leitura Numerológica do Nome e data de nascimento.",
+          "cover": "",
+          "coverText": "Leitura Numerológica",
+          "theme": ["#160f2b", "#3d2a63", "#d9b46a"],
+          "content": { "type": "link", "url": "", "body": "", "buttonLabel": "" }
+        },
+        {
+          "id": "calendario-lunar",
+          "title": "(Bônus) 🎁",
+          "continueTitle": "Calendário Lunar",
+          "description": "Calendário Lunar para Planejamento de Rituais.",
+          "cover": "",
+          "coverText": "Calendário Lunar",
+          "theme": ["#0f0c1f", "#2c2347", "#bfb6d9"],
+          "content": { "type": "pdf", "url": "", "body": "", "buttonLabel": "" }
+        },
+        {
+          "id": "planner-autocuidado",
+          "title": "(Bônus) 🎁",
+          "continueTitle": "Planner de Autocuidados Holístico Semanal",
+          "description": "Planner de Autocuidado Holístico Semanais.",
+          "cover": "",
+          "coverText": "Planner Autocuidados",
+          "theme": ["#5a3a1e", "#b8864e", "#f3dfb8"],
+          "content": { "type": "pdf", "url": "", "body": "", "buttonLabel": "" }
+        },
+        {
+          "id": "suporte",
+          "title": "Suporte 📲",
+          "continueTitle": "Suporte",
+          "description": "Nossos contatos para você pedir suporte.",
+          "cover": "",
+          "coverText": "Suporte",
+          "theme": ["#1c1236", "#5b3a8a", "#d7b8f0"],
+          "content": { "type": "support", "url": "", "body": "", "buttonLabel": "" }
+        }
+      ]
+    }
+  ],
+  "upsells": [
+    {
+      "id": "banhos-energeticos",
+      "title": "Banhos Energéticos 🌿",
+      "description": "",
+      "cover": "",
+      "coverText": "+50 Receitas Práticas",
+      "theme": ["#24361f", "#56704a", "#d8e4b8"],
+      "buyUrl": "",
+      "buyLabel": ""
+    },
+    {
+      "id": "checklist-protecao",
+      "title": "Checklist de Proteção para Médiuns",
+      "description": "",
+      "cover": "",
+      "coverText": "Checklist de Proteção",
+      "theme": ["#1b1236", "#4c2f78", "#f0c46a"],
+      "buyUrl": "",
+      "buyLabel": ""
+    },
+    {
+      "id": "consultoria",
+      "title": "Consultoria individual",
+      "description": "",
+      "cover": "",
+      "coverText": "Consultoria de cura energética",
+      "theme": ["#1a1430", "#4a3570", "#e3b56a"],
+      "buyUrl": "",
+      "buyLabel": ""
+    },
+    {
+      "id": "cura-chakras",
+      "title": "Programa de Cura dos 7 Chakras",
+      "description": "",
+      "cover": "",
+      "coverText": "Cura dos 7 Chakras",
+      "theme": ["#140e2c", "#43307a", "#f2a65a"],
+      "buyUrl": "",
+      "buyLabel": ""
+    }
+  ],
+  "posts": [
+    {
+      "id": "boas-vindas",
+      "author": "Equipe Luz da Autocura",
+      "date": "2026-10-01T12:00:00-03:00",
+      "title": "Bem-vindo(a) ao Luz da Autocura! 🌟",
+      "body": "Estamos muito felizes em ter você conosco nesta jornada de transformação e equilíbrio interior. Fique atento(a) às nossas atualizações e aproveite toda a experiência do aplicativo."
+    }
+  ]
+}

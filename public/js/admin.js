@@ -237,8 +237,9 @@
       "authorization": `Bearer ${start.token}`,
       "x-api-version": start.apiVersion,
       "x-vercel-blob-access": start.access,
-      "x-content-type": contentType,
-      "x-add-random-suffix": "0"
+      "x-content-type": contentType
+      // Sem x-add-random-suffix: o Blob não libera esse cabeçalho no CORS e o navegador
+      // bloqueia o envio. O token já leva addRandomSuffix: false.
     }, file, onProgress, false);
     return api("POST", "/api/admin/upload/finish", {
       name: start.name, url: blob.url, filename: file.name, size: file.size, contentType
